@@ -3,7 +3,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/X_EdMnknKUltk57alVVbVxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/X_EdMnknKUltk57alVVbVxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -11,7 +11,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/nBF2d6Y3AbOwfkBM-9HcWBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/nBF2d6Y3AbOwfkBM-9HcWBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -19,7 +19,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/CdlIlwqST01WNAKqZbtZkhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/CdlIlwqST01WNAKqZbtZkhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -27,7 +27,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/7k0RmqCN8EFxqS6sChuRzRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/7k0RmqCN8EFxqS6sChuRzRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -35,7 +35,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/WtcvfJHWXKxx4x0kuS1koRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/WtcvfJHWXKxx4x0kuS1koRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -43,7 +43,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/_aijTyevf54tkVDLy-dlnBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v7/_aijTyevf54tkVDLy-dlnBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* cyrillic-ext */
@@ -51,7 +51,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -59,7 +59,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/iQ9VJx1UMASKNiGywyyCXvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/iQ9VJx1UMASKNiGywyyCXvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -67,7 +67,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/WkvQmvwsfw_KKeau9SlQ2_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/WkvQmvwsfw_KKeau9SlQ2_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -75,7 +75,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/gYAtqXUikkQjyJA1SnpDLvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/gYAtqXUikkQjyJA1SnpDLvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -83,7 +83,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -91,7 +91,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/FHTuBZMvx3a4pgILB4O9UfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v7/FHTuBZMvx3a4pgILB4O9UfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* cyrillic-ext */
@@ -99,7 +99,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/oxrPYIm05JrY_0rFIEQ_oRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/oxrPYIm05JrY_0rFIEQ_oRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -107,7 +107,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/4z2U46_RRLOfkoHsWJG3vxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/4z2U46_RRLOfkoHsWJG3vxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -115,7 +115,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/2vaWVxeAxHVkFcnCBCQCyRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/2vaWVxeAxHVkFcnCBCQCyRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -123,7 +123,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/M-Ii49WH_TYYnOjQyLgTMBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/M-Ii49WH_TYYnOjQyLgTMBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -131,7 +131,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/nsLtvfQoT-rVwGTHHnkeJhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/nsLtvfQoT-rVwGTHHnkeJhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -139,7 +139,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* cyrillic-ext */
@@ -147,7 +147,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VjTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VjTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -155,7 +155,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VjUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VjUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -163,7 +163,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VkbcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VkbcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -171,7 +171,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6Vmo_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6Vmo_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -179,7 +179,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6ViYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6ViYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -187,7 +187,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VuL2WfuF7Qc3ANwCvwl0TnA.woff2) format('woff2');
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/DZ_YjBPqZ88vcZCcIXm6VuL2WfuF7Qc3ANwCvwl0TnA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* cyrillic-ext */
@@ -195,7 +195,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/w3OQMu9Ox3bN1d9i3mbh2xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/w3OQMu9Ox3bN1d9i3mbh2xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -203,7 +203,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/LYvzNpa5ecqVXi8cf4pj-hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/LYvzNpa5ecqVXi8cf4pj-hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -211,7 +211,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/T0N0BD55aMuIijZeoZ4TJBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/T0N0BD55aMuIijZeoZ4TJBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -219,7 +219,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/RunG4-izX6wYOuWLUJmsihTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/RunG4-izX6wYOuWLUJmsihTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -227,7 +227,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/IZYv9ktJI5s8uIr0hWnbSBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/IZYv9ktJI5s8uIr0hWnbSBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -235,7 +235,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(http://fonts.gstatic.com/s/ubuntu/v7/WB6rgjTg_oRfj6mlXZJbbxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v7/WB6rgjTg_oRfj6mlXZJbbxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /* cyrillic-ext */
@@ -243,7 +243,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7TTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7TTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 /* cyrillic */
@@ -251,7 +251,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7TUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7TUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* greek-ext */
@@ -259,7 +259,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7UbcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7UbcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -267,7 +267,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7Wo_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7Wo_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 /* latin-ext */
@@ -275,7 +275,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7SYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7SYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -283,7 +283,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(http://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7eL2WfuF7Qc3ANwCvwl0TnA.woff2) format('woff2');
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(https://fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7eL2WfuF7Qc3ANwCvwl0TnA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
