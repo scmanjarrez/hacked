@@ -1,366 +1,371 @@
+
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Documentation - hacked app</title>
-        <meta property="og:site_name" content="hacked app">
-        <meta property="og:title" content="Documentation">
-        <meta property="og:description" content="Any uninitialized variable has the Integer value 0. You can’t access variables that are in another “function” (but you can access other functions except if you redeclared them in your local...">
-        <meta property="og:image" content="files/7403703_2.png">
-        <meta property="og:url" content="documentation.html">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="files/sites.css" type="text/css">
-        <link rel="stylesheet" type="text/css" href="files/main_style.css" title="wsite-theme-css">
-        <link href="files/css.css" rel="stylesheet" type="text/css">
-        <link href="files/css_003.css" rel="stylesheet" type="text/css">
-        <link href="files/css_002.css" rel="stylesheet" type="text/css">
-        <link href="files/css_004.css" rel="stylesheet" type="text/css">
-        <link href="files/css_002.css" rel="stylesheet" type="text/css">
-        <link href="files/css_002.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            .wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Ubuntu" !important;font-weight:300 !important;}
-            #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-            .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-            .wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Dosis" !important;font-size:80px !important;font-weight:300 !important;line-height:60px !important;}
-            #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-            .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-            #wsite-title {font-family:"Advent Pro" !important;}
-            .wsite-menu-default a {}
-            .wsite-menu a {}
-            .wsite-image div, .wsite-caption {}
-            .galleryCaptionInnerText {}
-            .fancybox-title {}
-            .wslide-caption-text {}
-            .wsite-phone {}
-            .wsite-headline {font-family:"Dosis" !important;font-size:100px !important;font-weight:300 !important;line-height:57px !important;}
-            .wsite-headline-paragraph {font-family:"Dosis" !important;font-size:20px !important;color:#d5d5d5 !important;line-height:45px !important;}
-            .wsite-button-inner {}
-            .wsite-not-footer blockquote, #wsite-com-product-tab blockquote {}
-            .wsite-footer blockquote {}
-            .blog-header h2 a {}
-            #wsite-content h2.wsite-product-title {}
-            .wsite-product .wsite-product-price a {}
-        </style>
-        <style>
-            .wsite-background {background-image: url('//web.archive.org/web/20141021073953im_/http://cdn1.editmysite.com/uploads/2/5/8/4/25840404/background-images/1922127399.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: cover !important;background-color: transparent !important;background: inherit;}
-            body.wsite-background {background-attachment: fixed !important;}
-        </style>
-        <script src="files/jquery.js"></script>
-        <script src="files/main.js"></script>
-        <script>_W.relinquish && _W.relinquish()</script>
-    </head>
-    <body class="no-header-page wsite-theme-light wsite-page-documentation">
-        <!-- BEGIN WAYBACK TOOLBAR INSERT -->
-        <style type="text/css">
-            body {
-            margin-top:0 !important;
-            padding-top:0 !important;
-            /*min-width:800px !important;*/
-            }
-        </style>
-        <div id="header-wrap" style="transition: all 0.3s; visibility: hidden;">
-            <div class="container">
-                <table id="header">
-                    <tbody>
-                        <tr>
-                            <td id="logo"><span class="wsite-logo"><a href=""><img src="files/7403703.png"></a></span></td>
-                            <td class="nav">
-                                <ul class="wsite-menu-default">
-                                    <li id="pg795367339622225052" style="position: relative;" class="wsite-nav-0"><a href="" style="position: relative;">Home</a></li>
-                                    <li id="pg222480949420845460" style="position: relative;" class="wsite-nav-1"><a href="" style="position: relative;">About</a></li>
-                                    <li id="pg644572267848106388" style="position: relative;" class="wsite-nav-2"><a href="" style="position: relative;">Contact</a></li>
-                                </ul>
-                            </td>
-                            <!--<td class="search">{search}</td>-->
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="banner-wrap">
-                    <div id="banner">
-                        <h2><span class="wsite-text wsite-headline">DOCUMENTATION</span></h2>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <!-- end container -->
-        </div>
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-             document.getElementById("header-wrap").style.visibility = "visible";
-             document.getElementById("header-wrap").style.top = "0";
-             document.getElementById("goTop").classList.add('is-open');     		 
-            } else {
-             document.getElementById("header-wrap").style.visibility = "hidden";
-             document.getElementById("header-wrap").style.top = "-120px";      
-             document.getElementById("goTop").classList.remove('is-open');    
- document.getElementById("goTop").style.visibility = "visible";			 
-            }
-            prevScrollpos = currentScrollPos;
-            }
-            window.onload = function(){
-            var currentScrollPos = window.pageYOffset;
-            if (currentScrollPos === 0) {
-             document.getElementById("header-wrap").style.visibility = "visible";
-             document.getElementById("header-wrap").style.top = "0";
-			 document.getElementById("goTop").classList.add('is-open');   
-			 document.getElementById("goTop").style.visibility = "hidden";
-            }
-            }		 
-        </script>
-        <!-- end header-wrap --> 
-        <div id="main-wrap">
-            <div class="container">
-                <div id="wsite-content" class="wsite-elements wsite-not-footer" style="margin-top:100px;">
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#4cc9a4">H</font> <font color="#ffffff">documentation</font></h2>
-                    <div class="wsite-spacer" style="height:50px;"></div>
-                    <div>
-                        <div class="wsite-multicol">
-                            <div class="wsite-multicol-table-wrap" style="margin:0 -15px">
-                                <table class="wsite-multicol-table">
-                                    <tbody class="wsite-multicol-tbody">
-                                        <tr class="wsite-multicol-tr">
-                                            <td class="wsite-multicol-col " style="width:51.336098733154%;padding:0 15px">
-                                                <div>
-                                                    <div id="833706008949638915" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left">
-                                                        <div class="paragraph">
-                                                            <font size="5">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#generalinformation">General Information</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#datatypes">
-                                                                        Datatypes
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#operators">
-                                                                        Operators</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#comparators">
-                                                                        Comparators</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </font>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="wsite-multicol-col " style="width:48.663901266846%;padding:0 15px">
-                                                <div>
-                                                    <div id="327794710788198832" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left">
-                                                        <div class="paragraph">
-                                                            <font size="5">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#methods">Methods</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#functions">
-                                                                        Functions
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#customfunctions">
-                                                                        Custom Functions</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </font>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                        <hr class="styled-hr" style="width:100%;">
-                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#3ab890">GENeRAL information</font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><font color="#ffffff">Any uninitialized variable has the Integer value 0. <br><span></span></font></li>
-                            <li><font color="#ffffff">You
-                                can’t access variables that are in another “function” (but you can 
-                                access other functions except if you redeclared them in your local 
-                                function)<br><span></span></font>
-                            </li>
-                            <li><font color="#ffffff">A long 
-                                press on any function or method key will show you its prototype (ie long
-                                press on insert will display "insert(Integer, Any)")<br><span></span></font>
-                            </li>
-                            <li><font color="#ffffff">If no return statement is used, the value returned by the last line of the script is used as return value.</font><br><span></span><br><span></span></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div id="351960914573667904" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="datatypes"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">DATATYPES<span style="line-height: 0; display: none;">﻿</span></font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><font color="#ffffff">Integer &nbsp;</font><font color="#818181">Hi<span style="line-height: 0; display: none;">﻿</span>n<span style="line-height: 0; display: none;">﻿</span>t: chars can be compared with integers (ASCII value).</font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font><font color="#ffffff">List &nbsp;&nbsp;</font><font color="#818181">List are passed by reference, not copied.</font><br><font color="#ffffff"><span></span></font></font></li>
-                            <li><font color="#ffffff">Boolean<br><span></span></font></li>
-                            <li><font color="#ffffff">Function</font></li>
-                            <li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">Any &nbsp;&nbsp;</font><font color="#818181">This
-                                datatype doesn’t explicitly exist in the game but some functions take 
-                                any other type so for this Documentation we use this fake datatype for 
-                                reference.</font><br></span>
-                            </li>
-                        </ul>
-                        <br>
-                    </div>
-                    <div>
-                        <div id="843120589359907636" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="operators"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">OPERATORS</font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><font color="#ffffff">= &nbsp;&nbsp;</font><font color="#818181">assign</font><br><span></span></li>
-                            <li><font color="#ffffff">+ &nbsp; </font><font color="#818181">addition</font><br><span></span></li>
-                            <li><span style="line-height: 0; display: none;">﻿</span><font color="#ffffff">-</font><span style="line-height: 0; display: none;">﻿</span> &nbsp; &nbsp;<font color="#818181">subtraction</font><br><span></span></li>
-                            <li><font color="#ffffff">*</font> &nbsp; &nbsp;<font color="#818181">product</font><br><span></span></li>
-                            <li><font color="#ffffff">/</font> &nbsp; &nbsp;<font color="#818181">division</font><br><span></span><br><span></span></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div id="849226377447302998" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="comparators"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">COMPARATORS</font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><font color="#ffffff"><span style="line-height: 0; display: none;">﻿</span>Any<span style="line-height: 0; display: none;">﻿</span> == Any&nbsp;</font><font color="#818181">&nbsp;equals</font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">Any != Any &nbsp; &nbsp; </font><font color="#818181">not equals</font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">Integer &lt; Integer &nbsp; </font><font color="#818181">&nbsp;left side is less than right side</font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font><font color="#ffffff">Integer &gt; Integer &nbsp;&nbsp;</font><font color="#818181">left side is greater than right side</font><br><font color="#ffffff"><span></span></font></font></li>
-                            <li><font color="#ffffff">Boolean || Boolean</font><br><font color="#818181">Logical
-                                OR operator Returns true if one of the two arguments is true. Both 
-                                sides are evaluated even if the left side returns true!</font>
-                            </li>
-                            <li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">Boolean &amp;&amp; Boolean&nbsp;</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Logical
-                                AND operator. Returns true if both of the two arguments are true. Both 
-                                sides are evaluated even if the left side returns false!</font></span></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div id="603126464485157310" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="methods"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">METHODS</font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><span style="color: rgb(255, 255, 255); line-height: 1.5; background-color: initial;">Methods
-                                can be called on Lists. (The only exception is “is_list” which can be 
-                                called on any type). Syntax: list.method(parameters). &nbsp;Parentheses 
-                                may be omitted if no parameters are being provided, ex List.pop instead 
-                                of List.pop().</span><br>
-                            </li>
-                        </ul>
-                        <font color="#ffffff"><span></span><br><span></span></font>
-                        <ul>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">length</font><font color="#ffffff">() Integer </font><br><font color="#818181">returns the number of elements within the list</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">push</font><font color="#ffffff">(value Any) List</font><br><font color="#818181">adds a value to the end of the list and returns the list.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">pop</font><font color="#ffffff">() Any</font><br><font color="#818181">returns the last value from the list and removes it.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">insert</font><font color="#ffffff">(index Integer, value Any)</font><br><font color="#818181">inserts the value at the given index of a List</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">remove</font><font color="#ffffff">(index Integer)</font><br><font color="#818181">removes the value at the given index from the list. List index starts with 0</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">sort</font><font color="#ffffff">()</font><br><font color="#818181">sorts in place the list ascending&nbsp;</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">sort_with</font><font color="#ffffff">(func function(a Any, b Any) Boolean)</font><br><font color="#818181">sorts in place a list by calling the given function to compare the values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">map</font><font color="#ffffff">(func function(value Any) Any) </font><br><font color="#818181">applies the given function to each entry of the list.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[List].</font><font color="#b073da">copy</font><font color="#ffffff">() List</font><br><font color="#818181">creates and returns a copy of the list. Nested list won’t be copied. </font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#ffffff">[Any].</font><font color="#b073da">is_list</font><font color="#ffffff">() Boolean</font><br><font color="#818181">returns true if the sender is a List.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">[List].</font><font color="#b073da">fill</font><font color="#ffffff">(value Any)&nbsp;</font><br></span><span style="color: rgb(129, 129, 129); line-height: 1.5; background-color: initial;">Sets every element of the list to the given value</span></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div id="866588337833185021" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="functions"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">FUNCTIONS</font></h2>
-                    <div class="paragraph" style="text-align:left;">
-                        <ul>
-                            <li><span style="line-height: 0; display: none;">﻿</span><font color="#4cc9a4">abs</font><font color="#ffffff">(Integer) Integer</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Returns the absolute value of the provided integer</font></span><br></li>
-                        </ul>
-                        <font color="#ffffff"><span></span><br><span></span></font>
-                        <ul>
-                            <li><font color="#4cc9a4">mod</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns a % b (i.e. the remainder of a / b)</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">min</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns the smallest of the provided values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">max</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns the largest of the provided values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">pow</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Raises the value of the first argument to the power of the second value</font></span><br></li>
-                        </ul>
-                        <font color="#ffffff"><span></span><br><span></span></font>
-                        <ul>
-                            <li><font color="#4cc9a4">new_list</font><font color="#ffffff">(length Integer) List</font><br><font color="#818181">Initializes a new list with the given length. All values of the list are initialized with 0</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">draw</font><font color="#ffffff">(x Integer, y Integer)</font><br><font color="#818181">Draws a small rect at screen position ( x / y )</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">draw_text</font><font color="#ffffff">(x Integer, y Integer, text Any)</font><br><font color="#818181">Outputs text starting at screen position ( x / y )<br>text may be any datatype.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">width</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns the width of the screen</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">height</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns the height of the screen</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">left</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “left” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">right</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “right” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">up</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “up” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">down</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “down” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">a_btn</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “A” button is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">b_btn</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “B” button is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">random</font><font color="#ffffff">(m Integer) Integer</font><br><font color="#818181">Returns a random Integer with 0 &lt;= n &lt; m</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><font color="#4cc9a4">time</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns an increasing integer value. (seems to be milliseconds)</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
-                            <li><span style="line-height: 1.5; background-color: initial;"><font color="#4cc9a4">f1</font><font color="#ffffff"> - </font><font color="#4cc9a4">f16<br></font></span><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Custom functions.</font></span></li>
-                        </ul>
-                        <span style="line-height: 0; display: none;">﻿</span>
-                    </div>
-                    <div>
-                        <div id="612634638346660907" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="customfunctions"></a></div>
-                    </div>
-                    <h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">CUSTOM FUNCTIONS</font></h2>
-                    <div>
-                        <div class="wsite-multicol">
-                            <div class="wsite-multicol-table-wrap" style="margin:0 -15px">
-                                <table class="wsite-multicol-table">
-                                    <tbody class="wsite-multicol-tbody">
-                                        <tr class="wsite-multicol-tr">
-                                            <td class="wsite-multicol-col spacer-only" style="width:5.8583697094483%;padding:0 15px">
-                                                <div class="wsite-spacer" style="height:50px;"></div>
-                                            </td>
-                                            <td class="wsite-multicol-col " style="width:84.542335289797%;padding:0 15px">
-                                                <div class="paragraph" style="text-align:left;"><font color="#ffffff">You can define up to 16 custom numbered functions.</font><br><font color="#ffffff">Functions
-                                                    can be stored to variables and lists and can also be redefined later. 
-                                                    So if you need more than 16 functions you can either nest them or store 
-                                                    them in a list.</font><br><font color="#ffffff">All parameters are 
-                                                    passed as value beside of Lists which are passed as reference. So if you
-                                                    modify the list inside of a function, the original list will be 
-                                                    modified too!</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">Example:</font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#e97676">function</font> <font color="#5ce0b6">f1:</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> { &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="#818181">// Function F1 takes two parameters (var_a, var_b)</font><br><font color="#ffffff"><span></span>&nbsp; &nbsp; &nbsp; &nbsp;</font><font color="#e97676"> return</font> <font color="#5cbce0">var_a</font><font color="#ffffff"> * </font><font color="#5cbce0">var_b</font><font color="#ffffff">; &nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#818181">// Return the result of a * b</font><br><font color="#ffffff"><span></span>}</font><br><br><font color="#ffffff"><span style="line-height: 0; display: none;">﻿</span>Anonymous Functions<span style="line-height: 0; display: none;">﻿</span></font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">You can define brief anonymous functions (only one liners).</font></span><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">Example:</font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#e97676">function</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> -&gt; </font><font color="#5cbce0">var_a</font><font color="#ffffff"> + </font><font color="#5cbce0">var_b</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">The main purpose is to use it to do one liners like: </font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#5cbce0">var_a</font><font color="#ffffff">.</font><font color="#c389e8">sort_with</font><font color="#ffffff">(</font><font color="#e97676">function</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> -&gt; </font><font color="#5cbce0">var_b</font><font color="#ffffff"> &gt; </font><font color="#5cbce0">var_a</font><font color="#ffffff">); &nbsp; </font><font color="#818181">&nbsp;// reverse sort</font><font color="#ffffff">&nbsp;</font><br><br><br><br>
-                                                </div>
-                                            </td>
-                                            <td class="wsite-multicol-col spacer-only" style="width:9.5992950007549%;padding:0 15px">
-                                                <div class="wsite-spacer" style="height:50px;"></div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end main-wrap -->
-        <div id="footer-wrap">
-            <div class="container">
-                <div class="wsite-elements wsite-footer">
-                    <div class="paragraph" style="text-align:center;">hacked&nbsp;©&nbsp;2014. All Rights Reserved.</div>
-                </div>
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end footer-wrap -->
+	<head>
+		<title>Documentation - hacked app</title>
+		<meta property="og:site_name" content="hacked app">
+		<meta property="og:title" content="Documentation">
+		<meta property="og:description" content="Any uninitialized variable has the Integer value 0. You can’t access variables that are in another “function” (but you can access other functions except if you redeclared them in your local...">
+		<meta property="og:image" content="files/7403703_2.png">
+		<meta property="og:url" content="documentation.html">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="files/sites.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="files/main_style.css" title="wsite-theme-css">
+		<link href="files/css.css" rel="stylesheet" type="text/css">
+		<link href="files/css_003.css" rel="stylesheet" type="text/css">
+		<link href="files/css_002.css" rel="stylesheet" type="text/css">
+		<link href="files/css_004.css" rel="stylesheet" type="text/css">
+		<link href="files/css_002.css" rel="stylesheet" type="text/css">
+		<link href="files/css_002.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			.wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Ubuntu" !important;font-weight:300 !important;}
+			#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+			.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+			.wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Dosis" !important;font-size:80px !important;font-weight:300 !important;line-height:60px !important;}
+			#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+			.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+			#wsite-title {font-family:"Advent Pro" !important;}
+			.wsite-menu-default a {}
+			.wsite-menu a {}
+			.wsite-image div, .wsite-caption {}
+			.galleryCaptionInnerText {}
+			.fancybox-title {}
+			.wslide-caption-text {}
+			.wsite-phone {}
+			.wsite-headline {font-family:"Dosis" !important;font-size:100px !important;font-weight:300 !important;line-height:57px !important;}
+			.wsite-headline-paragraph {font-family:"Dosis" !important;font-size:20px !important;color:#d5d5d5 !important;line-height:45px !important;}
+			.wsite-button-inner {}
+			.wsite-not-footer blockquote, #wsite-com-product-tab blockquote {}
+			.wsite-footer blockquote {}
+			.blog-header h2 a {}
+			#wsite-content h2.wsite-product-title {}
+			.wsite-product .wsite-product-price a {}
+		</style>
+		<style>
+			.wsite-background {background-image: url('//web.archive.org/web/20141021073953im_/http://cdn1.editmysite.com/uploads/2/5/8/4/25840404/background-images/1922127399.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: cover !important;background-color: transparent !important;background: inherit;}
+			body.wsite-background {background-attachment: fixed !important;}
+		</style>
+		<script src="files/jquery.js"></script>
+		<script src="files/main.js"></script>
+		<script>_W.relinquish && _W.relinquish()</script>
+	</head>
+	<body class="no-header-page wsite-theme-light wsite-page-documentation">
+		<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+		<style type="text/css">
+			body {
+			margin-top:0 !important;
+			padding-top:0 !important;
+			/*min-width:800px !important;*/
+			}
+		</style>
+		<div id="header-wrap" style="transition: all 0.3s; visibility: hidden;">
+			<div class="container">
+				<table id="header">
+					<tbody>
+						<tr>
+							<td id="logo"><span class="wsite-logo"><a href=""><img src="files/7403703.png"></a></span></td>
+							<td class="nav">
+								<ul class="wsite-menu-default">
+									<li id="pg795367339622225052" style="position: relative;" class="wsite-nav-0"><a href="" style="position: relative;">Home</a></li>
+									<li id="pg222480949420845460" style="position: relative;" class="wsite-nav-1"><a href="" style="position: relative;">About</a></li>
+									<li id="pg644572267848106388" style="position: relative;" class="wsite-nav-2"><a href="" style="position: relative;">Contact</a></li>
+								</ul>
+							</td>
+							<!--<td class="search">{search}</td>-->
+						</tr>
+					</tbody>
+				</table>
+				<div class="banner-wrap">
+					<div id="banner">
+						<h2><span class="wsite-text wsite-headline">DOCUMENTATION</span></h2>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<!-- end container -->
+		</div>
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+			 document.getElementById("header-wrap").style.visibility = "visible";
+			 document.getElementById("header-wrap").style.top = "0";
+			 document.getElementById("goTop").classList.add('is-open');     		 
+			} else {
+			 document.getElementById("header-wrap").style.visibility = "hidden";
+			 document.getElementById("header-wrap").style.top = "-120px";      
+			 document.getElementById("goTop").classList.remove('is-open');    
+			document.getElementById("goTop").style.visibility = "visible";			 
+			}
+			prevScrollpos = currentScrollPos;
+			}
+			window.onload = function(){
+			var currentScrollPos = window.pageYOffset;
+			if (currentScrollPos === 0) {
+			 document.getElementById("header-wrap").style.visibility = "visible";
+			 document.getElementById("header-wrap").style.top = "0";
+			document.getElementById("goTop").classList.add('is-open');   
+			document.getElementById("goTop").style.visibility = "hidden";
+			}
+			}		 
+		</script>
+		<!-- end header-wrap --> 
+		<div id="main-wrap">
+			<div class="container">
+				<div id="wsite-content" class="wsite-elements wsite-not-footer" style="margin-top:100px;">
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#4cc9a4">H</font> <font color="#ffffff">documentation</font></h2>
+					<div class="wsite-spacer" style="height:50px;"></div>
+					<div>
+						<div class="wsite-multicol">
+							<div class="wsite-multicol-table-wrap" style="margin:0 -15px">
+								<table class="wsite-multicol-table">
+									<tbody class="wsite-multicol-tbody">
+										<tr class="wsite-multicol-tr">
+											<td class="wsite-multicol-col " style="width:51.336098733154%;padding:0 15px">
+												<div>
+													<div id="833706008949638915" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left">
+														<div class="paragraph">
+															<font size="5">
+																<ul>
+																	<li>
+																		<a href="#generalinformation">General Information</a>
+																	</li>
+																	<li>
+																		<a href="#datatypes">
+																		Datatypes
+																		</a>
+																	</li>
+																	<li>
+																		<a href="#operators">
+																		Operators</a>
+																	</li>
+																	<li>
+																		<a href="#comparators">
+																		Comparators</a>
+																	</li>
+																</ul>
+															</font>
+														</div>
+													</div>
+												</div>
+											</td>
+											<td class="wsite-multicol-col " style="width:48.663901266846%;padding:0 15px">
+												<div>
+													<div id="327794710788198832" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left">
+														<div class="paragraph">
+															<font size="5">
+																<ul>
+																	<li>
+																		<a href="#methods">Methods</a>
+																	</li>
+																	<li>
+																		<a href="#functions">
+																		Functions
+																		</a>
+																	</li>
+																	<li>
+																		<a href="#customfunctions">
+																		Custom Functions</a>
+																	</li>
+																</ul>
+															</font>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div style="height: 20px; overflow: hidden; width: 100%;"></div>
+						<hr class="styled-hr" style="width:100%;">
+						<div style="height: 20px; overflow: hidden; width: 100%;"></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#3ab890">GENeRAL information</font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><font color="#ffffff">Any uninitialized variable has the Integer value 0. <br><span></span></font></li>
+							<li><font color="#ffffff">You
+								can’t access variables that are in another “function” (but you can 
+								access other functions except if you redeclared them in your local 
+								function)<br><span></span></font>
+							</li>
+							<li><font color="#ffffff">A long 
+								press on any function or method key will show you its prototype (ie long
+								press on insert will display "insert(Integer, Any)")<br><span></span></font>
+							</li>
+							<li><font color="#ffffff">If no return statement is used, the value returned by the last line of the script is used as return value.</font><br><span></span><br><span></span></li>
+						</ul>
+					</div>
+					<div>
+						<div id="351960914573667904" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="datatypes"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">DATATYPES<span style="line-height: 0; display: none;">﻿</span></font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><font color="#ffffff">Integer &nbsp;</font><font color="#818181">Hi<span style="line-height: 0; display: none;">﻿</span>n<span style="line-height: 0; display: none;">﻿</span>t: chars can be compared with integers (ASCII value).</font><br><font color="#ffffff"><span></span></font></li>
+							<li><font><font color="#ffffff">List &nbsp;&nbsp;</font><font color="#818181">List are passed by reference, not copied.</font><br><font color="#ffffff"><span></span></font></font></li>
+							<li><font color="#ffffff">Boolean<br><span></span></font></li>
+							<li><font color="#ffffff">Function</font></li>
+							<li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">Any &nbsp;&nbsp;</font><font color="#818181">This
+								datatype doesn’t explicitly exist in the game but some functions take 
+								any other type so for this Documentation we use this fake datatype for 
+								reference.</font><br></span>
+							</li>
+						</ul>
+						<br>
+					</div>
+					<div>
+						<div id="843120589359907636" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="operators"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">OPERATORS</font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><font color="#ffffff">= &nbsp;&nbsp;</font><font color="#818181">assign</font><br><span></span></li>
+							<li><font color="#ffffff">+ &nbsp; </font><font color="#818181">addition</font><br><span></span></li>
+							<li><span style="line-height: 0; display: none;">﻿</span><font color="#ffffff">-</font><span style="line-height: 0; display: none;">﻿</span> &nbsp; &nbsp;<font color="#818181">subtraction</font><br><span></span></li>
+							<li><font color="#ffffff">*</font> &nbsp; &nbsp;<font color="#818181">product</font><br><span></span></li>
+							<li><font color="#ffffff">/</font> &nbsp; &nbsp;<font color="#818181">division</font><br><span></span><br><span></span></li>
+						</ul>
+					</div>
+					<div>
+						<div id="849226377447302998" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="comparators"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">COMPARATORS</font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><font color="#ffffff"><span style="line-height: 0; display: none;">﻿</span>Any<span style="line-height: 0; display: none;">﻿</span> == Any&nbsp;</font><font color="#818181">&nbsp;equals</font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">Any != Any &nbsp; &nbsp; </font><font color="#818181">not equals</font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">Integer &lt; Integer &nbsp; </font><font color="#818181">&nbsp;left side is less than right side</font><br><font color="#ffffff"><span></span></font></li>
+							<li><font><font color="#ffffff">Integer &gt; Integer &nbsp;&nbsp;</font><font color="#818181">left side is greater than right side</font><br><font color="#ffffff"><span></span></font></font></li>
+							<li><font color="#ffffff">Boolean || Boolean</font><br><font color="#818181">Logical
+								OR operator Returns true if one of the two arguments is true. Both 
+								sides are evaluated even if the left side returns true!</font>
+							</li>
+							<li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">Boolean &amp;&amp; Boolean&nbsp;</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Logical
+								AND operator. Returns true if both of the two arguments are true. Both 
+								sides are evaluated even if the left side returns false!</font></span></span>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<div id="603126464485157310" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="methods"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">METHODS</font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><span style="color: rgb(255, 255, 255); line-height: 1.5; background-color: initial;">Methods
+								can be called on Lists. (The only exception is “is_list” which can be 
+								called on any type). Syntax: list.method(parameters). &nbsp;Parentheses 
+								may be omitted if no parameters are being provided, ex List.pop instead 
+								of List.pop().</span><br>
+							</li>
+						</ul>
+						<font color="#ffffff"><span></span><br><span></span></font>
+						<ul>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">length</font><font color="#ffffff">() Integer </font><br><font color="#818181">returns the number of elements within the list</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">push</font><font color="#ffffff">(value Any) List</font><br><font color="#818181">adds a value to the end of the list and returns the list.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">pop</font><font color="#ffffff">() Any</font><br><font color="#818181">returns the last value from the list and removes it.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">insert</font><font color="#ffffff">(index Integer, value Any)</font><br><font color="#818181">inserts the value at the given index of a List</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">remove</font><font color="#ffffff">(index Integer)</font><br><font color="#818181">removes the value at the given index from the list. List index starts with 0</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">sort</font><font color="#ffffff">()</font><br><font color="#818181">sorts in place the list ascending&nbsp;</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">sort_with</font><font color="#ffffff">(func function(a Any, b Any) Boolean)</font><br><font color="#818181">sorts in place a list by calling the given function to compare the values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">map</font><font color="#ffffff">(func function(value Any) Any) </font><br><font color="#818181">applies the given function to each entry of the list.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[List].</font><font color="#b073da">copy</font><font color="#ffffff">() List</font><br><font color="#818181">creates and returns a copy of the list. Nested list won’t be copied. </font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#ffffff">[Any].</font><font color="#b073da">is_list</font><font color="#ffffff">() Boolean</font><br><font color="#818181">returns true if the sender is a List.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><span style="line-height: 1.5; background-color: initial;"><font color="#ffffff">[List].</font><font color="#b073da">fill</font><font color="#ffffff">(value Any)&nbsp;</font><br></span><span style="color: rgb(129, 129, 129); line-height: 1.5; background-color: initial;">Sets every element of the list to the given value</span></li>
+						</ul>
+					</div>
+					<div>
+						<div id="866588337833185021" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="functions"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">FUNCTIONS</font></h2>
+					<div class="paragraph" style="text-align:left;">
+						<ul>
+							<li><span style="line-height: 0; display: none;">﻿</span><font color="#4cc9a4">abs</font><font color="#ffffff">(Integer) Integer</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Returns the absolute value of the provided integer</font></span><br></li>
+						</ul>
+						<font color="#ffffff"><span></span><br><span></span></font>
+						<ul>
+							<li><font color="#4cc9a4">mod</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns a % b (i.e. the remainder of a / b)</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">min</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns the smallest of the provided values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">max</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><font color="#818181">Returns the largest of the provided values</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">pow</font><font color="#ffffff">(a Integer, b Integer) Integer</font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Raises the value of the first argument to the power of the second value</font></span><br></li>
+						</ul>
+						<font color="#ffffff"><span></span><br><span></span></font>
+						<ul>
+							<li><font color="#4cc9a4">new_list</font><font color="#ffffff">(length Integer) List</font><br><font color="#818181">Initializes a new list with the given length. All values of the list are initialized with 0</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">draw</font><font color="#ffffff">(x Integer, y Integer)</font><br><font color="#818181">Draws a small rect at screen position ( x / y )</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">draw_text</font><font color="#ffffff">(x Integer, y Integer, text Any)</font><br><font color="#818181">Outputs text starting at screen position ( x / y )<br>text may be any datatype.</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">width</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns the width of the screen</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">height</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns the height of the screen</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">left</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “left” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">right</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “right” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">up</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “up” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">down</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “down” button of the D-Pad is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">a_btn</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “A” button is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">b_btn</font><font color="#ffffff">() Boolean</font><br><font color="#818181">Returns true if the “B” button is pressed</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">random</font><font color="#ffffff">(m Integer) Integer</font><br><font color="#818181">Returns a random Integer with 0 &lt;= n &lt; m</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><font color="#4cc9a4">time</font><font color="#ffffff">() Integer</font><br><font color="#818181">Returns an increasing integer value. (seems to be milliseconds)</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff"><span></span></font></li>
+							<li><span style="line-height: 1.5; background-color: initial;"><font color="#4cc9a4">f1</font><font color="#ffffff"> - </font><font color="#4cc9a4">f16<br></font></span><span style="line-height: 1.5; background-color: initial;"><font color="#818181">Custom functions.</font></span></li>
+						</ul>
+						<span style="line-height: 0; display: none;">﻿</span>
+					</div>
+					<div>
+						<div id="612634638346660907" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><a name="customfunctions"></a></div>
+					</div>
+					<h2 class="wsite-content-title" style="text-align:center;"><font color="#33a27f">CUSTOM FUNCTIONS</font></h2>
+					<div>
+						<div class="wsite-multicol">
+							<div class="wsite-multicol-table-wrap" style="margin:0 -15px">
+								<table class="wsite-multicol-table">
+									<tbody class="wsite-multicol-tbody">
+										<tr class="wsite-multicol-tr">
+											<td class="wsite-multicol-col spacer-only" style="width:5.8583697094483%;padding:0 15px">
+												<div class="wsite-spacer" style="height:50px;"></div>
+											</td>
+											<td class="wsite-multicol-col " style="width:84.542335289797%;padding:0 15px">
+												<div class="paragraph" style="text-align:left;"><font color="#ffffff">You can define up to 16 custom numbered functions.</font><br><font color="#ffffff">Functions
+													can be stored to variables and lists and can also be redefined later. 
+													So if you need more than 16 functions you can either nest them or store 
+													them in a list.</font><br><font color="#ffffff">All parameters are 
+													passed as value beside of Lists which are passed as reference. So if you
+													modify the list inside of a function, the original list will be 
+													modified too!</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">Example:</font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#e97676">function</font> <font color="#5ce0b6">f1:</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> { &nbsp; &nbsp; &nbsp; &nbsp;</font><font color="#818181">// Function F1 takes two parameters (var_a, var_b)</font><br><font color="#ffffff"><span></span>&nbsp; &nbsp; &nbsp; &nbsp;</font><font color="#e97676"> return</font> <font color="#5cbce0">var_a</font><font color="#ffffff"> * </font><font color="#5cbce0">var_b</font><font color="#ffffff">; &nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#818181">// Return the result of a * b</font><br><font color="#ffffff"><span></span>}</font><br><br><font color="#ffffff"><span style="line-height: 0; display: none;">﻿</span>Anonymous Functions<span style="line-height: 0; display: none;">﻿</span></font><br><span style="line-height: 1.5; background-color: initial;"><font color="#818181">You can define brief anonymous functions (only one liners).</font></span><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">Example:</font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#e97676">function</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> -&gt; </font><font color="#5cbce0">var_a</font><font color="#ffffff"> + </font><font color="#5cbce0">var_b</font><br><font color="#ffffff"><span></span></font><br><font color="#ffffff">The main purpose is to use it to do one liners like: </font><br><font color="#ffffff"><span></span></font><br><span></span><font color="#5cbce0">var_a</font><font color="#ffffff">.</font><font color="#c389e8">sort_with</font><font color="#ffffff">(</font><font color="#e97676">function</font> <font color="#5cbce0">var_a</font><font color="#ffffff">, </font><font color="#5cbce0">var_b</font><font color="#ffffff"> -&gt; </font><font color="#5cbce0">var_b</font><font color="#ffffff"> &gt; </font><font color="#5cbce0">var_a</font><font color="#ffffff">); &nbsp; </font><font color="#818181">&nbsp;// reverse sort</font><font color="#ffffff">&nbsp;</font><br><br><br><br>
+												</div>
+											</td>
+											<td class="wsite-multicol-col spacer-only" style="width:9.5992950007549%;padding:0 15px">
+												<div class="wsite-spacer" style="height:50px;"></div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end container -->
+		</div>
+		<!-- end main-wrap -->
+		<div id="footer-wrap">
+			<div class="container">
+				<div class="wsite-elements wsite-footer">
+					<div class="paragraph" style="text-align:center;">hacked&nbsp;©&nbsp;2014. All Rights Reserved.</div>
+				</div>
+			</div>
+			<!-- end container -->
+		</div>
+		<!-- end footer-wrap -->
 		<a id="goTop" href="#top">
-		    <svg width="25px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" class="svg-inline--fa fa-angle-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+			<svg width="25px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" class="svg-inline--fa fa-angle-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+				<path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+			</svg>
 		</a>
-    </body>
+	</body>
 </html>
+
