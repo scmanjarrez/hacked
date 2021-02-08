@@ -1,0 +1,1 @@
+Recovered and cleaned documentation from web.archive.org of [Hacked](https://play.google.com/store/apps/details?id=com.hackedapp&hl=es_NI), android game

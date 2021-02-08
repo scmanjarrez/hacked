@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Advent Pro ExtraLight'), local('AdventPro-ExtraLight'), url(http://fonts.gstatic.com/s/adventpro/v4/URTSSjIp0Wr-GrjxFdFWnJyDwgi5ZML2zV5MusG04cM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Advent Pro Light'), local('AdventPro-Light'), url(http://fonts.gstatic.com/s/adventpro/v4/sJaBfJYSFgoB80OL1_66m-GMkauwsY7KZ6tVtEZSDQ4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Advent Pro Regular'), local('AdventPro-Regular'), url(http://fonts.gstatic.com/s/adventpro/v4/Xfe7ShDKddJBJE_WqrWHYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Advent Pro Bold'), local('AdventPro-Bold'), url(http://fonts.gstatic.com/s/adventpro/v4/M4I6QiICt-ey_wZTpR2gK7OLyRJkM5aLlPlkJMOAyH0.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 14:03:49 Oct 20, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:35:19 Feb 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 326.42
+  exclusion.robots: 0.155
+  exclusion.robots.policy: 0.142
+  RedisCDXSource: 6.131
+  esindex: 0.01
+  LoadShardBlock: 160.356 (3)
+  PetaboxLoader3.datanode: 190.35 (5)
+  CDXLines.iter: 49.252 (3)
+  load_resource: 243.806 (2)
+  PetaboxLoader3.resolve: 87.663 (2)
+*/

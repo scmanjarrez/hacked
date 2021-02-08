@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), url(http://fonts.gstatic.com/s/dosis/v4/NdbdQX1FJoKLUYBVGCmdlfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(http://fonts.gstatic.com/s/dosis/v4/qrav9EEA-DGoa_8zyIjVZfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(http://fonts.gstatic.com/s/dosis/v4/yUkc6bor5XCjwNWLpzDf8Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(http://fonts.gstatic.com/s/dosis/v4/fgA8TJeZk_EzRCmWevkeGfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 09:30:36 Oct 21, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:35:19 Feb 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.146
+  captures_list: 626.105
+  CDXLines.iter: 57.916 (3)
+  esindex: 0.012
+  load_resource: 166.019
+  exclusion.robots.policy: 0.136
+  PetaboxLoader3.datanode: 273.31 (4)
+  PetaboxLoader3.resolve: 118.094
+  LoadShardBlock: 276.985 (3)
+  RedisCDXSource: 28.492
+*/
